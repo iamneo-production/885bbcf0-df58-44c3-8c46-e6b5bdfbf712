@@ -1,0 +1,179 @@
+
+	body {
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	.navbar {
+	  overflow: hidden;
+	  background-color: #333;
+	}
+	
+	.navbar a {
+	  float: left;
+	  font-size: 16px;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	}
+	
+	.dropdown {
+	  float: right;
+	  overflow: hidden;
+	}
+	
+	.dropdown .dropbtn {
+	  font-size: 16px;  
+	  border: none;
+	  outline: none;
+	  color: white;
+	  padding: 14px 16px;
+	  background-color: inherit;
+	  font-family: inherit;
+	  margin: 0;
+	}
+	
+	.navbar a:hover, .dropdown:hover .dropbtn {
+	  background-color: red;
+	}
+	
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+	
+	.dropdown-content a {
+	  float: none;
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	  text-align: left;
+	}
+	
+	.dropdown-content a:hover {
+	  background-color: #ddd;
+	}
+	
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	}
+	
+	
+	.navbar .search-container {
+	  float: right;
+	}
+	
+	.navbar input[type=text] {
+	  padding: 6px;
+	  margin-top: 8px;
+	  font-size: 17px;
+	  border: none;
+	}
+	
+	.navbar .search-container button {
+	  float: right;
+	  padding: 6px;
+	  margin-top: 8px;
+	  margin-right: 16px;
+	  background: #ddd;
+	  font-size: 17px;
+	  border: none;
+	  cursor: pointer;
+	}
+	
+	.navbar .search-container button:hover {
+	  background: #ccc;
+	}
+	
+	@media screen and (max-width: 600px) {
+	  .navbar .search-container {
+		float: none;
+	  }
+	  .navbar a, .navbar input[type=text], .navbar .search-container button {
+		float: none;
+		display: block;
+		text-align: left;
+		width: 100%;
+		margin: 0;
+		padding: 14px;
+	  }
+	  .navbar input[type=text] {
+		border: 1px solid #ccc;  
+	  }
+	   .column {
+		width: 100%;
+	  }
+	  
+	  .col-25, .col-75, input[type=submit] {
+		width: 100%;
+		margin-top: 0;
+	  }
+	}
+	
+	.column {
+	  float: left;
+	  padding: 10px;
+	  background-color: #fff;
+	}
+	
+	/* Clear floats after the columns */
+	.row:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	
+	
+	.minp input[type=text], select, textarea {
+	  width: 95%;
+	  padding: 12px;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  resize: vertical;
+	}
+	
+	.minp label {
+	  padding: 12px 12px 12px 0;
+	  display: inline-block;
+	}
+	
+	.minp input[type=submit] {
+	  background-color: #324ea8;
+	  color: white;
+	  padding: 12px 20px;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	  float: right;
+	}
+	
+	.minp input[type=submit]:hover {
+	  background-color: #45a049;
+	}
+	
+	.minp .container {
+	  border-radius: 5px;
+	  background-color: #f2f2f2;
+	  padding: 20px;
+	}
+	
+	.minp .col-25 {
+	  float: left;
+	  width: 25%;
+	  margin-top: 6px;
+	}
+	
+	.minp .col-75 {
+	  float: left;
+	  width: 75%;
+	  margin-top: 6px;
+	}
+	
+	
+	
+	
